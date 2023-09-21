@@ -1,0 +1,28 @@
+:root {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  background-color: var(--primary-white);
+
+  --primary-yellow: #ECA539;
+  --dark-red: #C00E20;
+  --primary-red: #F22539;
+  --dark-grey: #353535;
+  --primary-grey: #5E5E5E;
+  --light-grey: #BFBFBF;
+  --secondary-grey: #E8E8E8;
+  --primary-white: #F9F9F9;
+  --secondary-white: #F5F5F5;
+  --white: #FFFFFF;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

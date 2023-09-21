@@ -1,0 +1,11 @@
+.pokeItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--white);
+    margin: 20px 0;
+    padding: 0 10px;
+    height: 60px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1)
+  }

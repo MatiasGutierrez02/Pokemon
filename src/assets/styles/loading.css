@@ -1,0 +1,19 @@
+.poke-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.pokeball{
+    width: 120px;
+    height: 120px;
+    animation: spin 1.5s cubic-bezier(0.5, -0.5, 0.5, 1.5) infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

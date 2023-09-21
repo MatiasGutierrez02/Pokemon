@@ -1,0 +1,42 @@
+.footer-container {
+    position: sticky;
+    bottom: 0;
+    background-color: var(--white);
+    padding: 40px 0;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer button{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.6px;
+    text-align: center;
+    width: 150px;
+    height: 44px;
+    border: none;
+    border-radius: 60px;
+    margin: 0 15px;
+    color: var(--primary-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.showAll-button {
+    background-color: var(--light-grey);
+}
+.fav-button {
+    background-color: var(--light-grey);
+}
+.btn span{
+    margin-top: 4px;
+}
+.active{
+    background-color: var(--primary-red);
+}
